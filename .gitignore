@@ -6,7 +6,7 @@
 *.lo
 *.o
 *.obj
-
+build
 # Precompiled Headers
 *.gch
 *.pch
@@ -30,3 +30,4 @@
 *.exe
 *.out
 *.app
+.venv

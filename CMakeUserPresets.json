@@ -1,0 +1,9 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "/home/nir/Desktop/aqt_bug_repro/build/Release/generators/CMakePresets.json"
+    ]
+}

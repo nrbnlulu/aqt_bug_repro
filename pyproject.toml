@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aqt-bug-repro"
+version = "0.1.0"
+description = ""
+authors = ["Nir <88795475+nrbnlulu@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+aqtinstall = "^3.1.6"
+cmake = "^3.26.3"
+conan = "^2.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
