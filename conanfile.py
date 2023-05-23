@@ -86,7 +86,7 @@ class QtGqlRecipe(ConanFile):
                 f"desktop {qt_version} {self.qt_arch} "
                 f"--outputdir {str(self.aqt_install_dir)} "
                 f"-m qtwebsockets".split(" "),
-            )
+            ).check_returncode()
         assert self.qt6_install_dir
         assert self.qt6_install_dir.exists()
         deps = CMakeDeps(self)
